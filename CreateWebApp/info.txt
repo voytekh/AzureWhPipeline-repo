@@ -1,0 +1,2 @@
+Git repo name: AzureWhPipeline-repo
+url: https://github.com/voytekh/AzureWhPipeline-repo.git
