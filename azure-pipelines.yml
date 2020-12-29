@@ -20,6 +20,6 @@ steps:
     location: 'westus'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName WhPipDep01 -linkedTemplateUri https://raw.githubusercontent.com/voytekh/AzureWhPipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=AIXRYVJ53WD3SRFJHU2RBM275LR3K'
+    overrideParameters: '-projectName whpipdep01 -linkedTemplateUri https://raw.githubusercontent.com/voytekh/AzureWhPipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=AIXRYVJ53WD3SRFJHU2RBM275LR3K'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
